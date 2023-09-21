@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 80%;
+  background-color: #f8fafc;
+  border-radius: 20px;
+}
+
+.capital-container {
+  display: flex;
+  align-items: center;
+}
+
+select {
+  height: 30px;
+  width: 290px;
+  margin-right: 10px;
+}
+
+h1 {
+  color: #1e293b;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #323f4b;
+}
+
+.captial {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: roboto;
+  color: #323f4b;
+  align-self: flex-start;
+}
